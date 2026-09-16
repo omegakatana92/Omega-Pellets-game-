@@ -1,0 +1,28 @@
+# Python cache / build output
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Omega Pellets development checkpoints/backups
+*_COMPLETE_BACKUP.py
+*_COMPLETE_BACKUP.zip
+experiment_zero_v*.py
+OmegaPellets_v*.zip
+
+# Local progression/save data
+.omega_pellets_unlocks.json
+
+# Logs/temp
+*.log
+*.tmp
