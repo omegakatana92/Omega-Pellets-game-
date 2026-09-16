@@ -1,0 +1,10 @@
+OMEGA PELLETS v0.8.2 - TERMINAL TRANSITION FIX
+
+1. Copy main.py into your existing OmegaPellets project folder.
+2. Keep your existing assets folder unchanged.
+3. Run:
+   py -3.12 -m py_compile .\main.py
+   py -3.12 .\main.py
+
+Opening flow:
+Omega Katana logo -> lore + Flags -> black/music fadeout -> scientist terminal (beeps only) -> code boot (beeps only) -> main menu.

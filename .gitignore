@@ -26,3 +26,7 @@ OmegaPellets_v*.zip
 # Logs/temp
 *.log
 *.tmp
+
+audio assets/
+main_v0.1.8.py
+main_v0.1_backup.py
