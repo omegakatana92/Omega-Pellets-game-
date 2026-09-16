@@ -121,10 +121,10 @@ Experiment Zero is preserved inside Omega Pellets as an unlockable playable arch
 - Two Player — **Deadly Force** — Karl Casey / White Bat Audio
 - Credits — **Warped** — Alexander Ehlers
 - Opening / Lore Sequence — **Flags** — Alexander Ehlers
-- Options — `assembly_not_required.ogg`
-
-The repository does not currently document the author/license details for `assembly_not_required.ogg`; those details should be verified before distributing that track publicly.
-
+- ### Options / System Configuration
+**"Assembly Not Required"**  
+Music by **AndyGun11**  
+Licensed under **OGA-BY 4.0 / CC-BY 4.0**
 ## License
 
 The source repository currently includes the **GNU General Public License v3.0 (GPL-3.0)**. See `LICENSE` for the complete license text.
