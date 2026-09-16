@@ -16,11 +16,7 @@ The current build expands the original Experiment Zero prototype into the full O
 - 120-second laboratory sessions
 - Scientist monitoring HUD and aquatic containment environment
 - Pause, incident-report, shutdown, and session-initialization sequences
-- Persistent high score and unlock progression
-- Concept Art Archive unlocked at score 5
-- Experiment Zero Prototype unlocked at score 25
-- Classic Black & White unlocked at score 50
-- Classic Game Boy unlocked at score 75
+- Persistent high score
 - Music, sound effects, and Omega Labs voice announcements
 - Credits mode
 - Omega Katana production intro
@@ -62,19 +58,6 @@ Before these organisms can be deployed to colonies and Artnets, the specimens mu
 | Red | VELOCITY+ | +1 score and increases movement speed |
 | Blue | VELOCITY- | +1 score and decreases movement speed |
 
-## Progression
-
-Progress is stored outside the project folder in the user's home directory as `.omega_pellets_unlocks.json`.
-
-| High Score | Unlock |
-|---:|---|
-| 5 | Concept Art Archive |
-| 25 | Experiment Zero Prototype |
-| 50 | Classic Black & White |
-| 75 | Classic Game Boy |
-
-Sound effects are available from the beginning and are not an unlock.
-
 ## Requirements
 
 - Python 3.12 recommended
@@ -98,11 +81,7 @@ Syntax check:
 py -3.12 -m py_compile main.py
 ```
 
-The `assets` directory must remain beside `main.py` so the game can load its music, voice recordings, concept art, and intro artwork.
-
-## Experiment Zero
-
-Experiment Zero is preserved inside Omega Pellets as an unlockable playable archive. It represents the original grid-based prototype and the starting point of the project rather than the current main presentation.
+The `assets` directory must remain beside `main.py` so the game can load its music, voice recordings, artwork, and intro artwork.
 
 ## Credits
 
@@ -119,12 +98,10 @@ Experiment Zero is preserved inside Omega Pellets as an unlockable playable arch
 - Main Menu — **80s Mysterywave Music** — DesertDev
 - Single Player — **Scanner** — Karl Casey / White Bat Audio
 - Two Player — **Deadly Force** — Karl Casey / White Bat Audio
+- Options / System Configuration — **Assembly Not Required** — AndyGun11 — OGA-BY 4.0 / CC-BY 4.0
 - Credits — **Warped** — Alexander Ehlers
 - Opening / Lore Sequence — **Flags** — Alexander Ehlers
-- ### Options / System Configuration
-**"Assembly Not Required"**  
-Music by **AndyGun11**  
-Licensed under **OGA-BY 4.0 / CC-BY 4.0**
+
 ## License
 
 The source repository currently includes the **GNU General Public License v3.0 (GPL-3.0)**. See `LICENSE` for the complete license text.
